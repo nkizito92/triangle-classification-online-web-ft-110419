@@ -22,10 +22,7 @@ class Triangle
           end 
         end 
       end 
-end
-
   class TriangleError < StandardError
-    def message 
-      "RangeError"
-    end 
+    
   end
+end
