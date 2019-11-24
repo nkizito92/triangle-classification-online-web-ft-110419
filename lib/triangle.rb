@@ -1,4 +1,3 @@
-require "pry"
 class Triangle
   
     def initialize(a,b,c)
