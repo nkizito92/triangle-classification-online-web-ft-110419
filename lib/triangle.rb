@@ -23,6 +23,6 @@ class Triangle
         end 
       end 
   class TriangleError < StandardError
-    
+    "RangeError"
   end
 end
