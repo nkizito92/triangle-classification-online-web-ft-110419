@@ -26,6 +26,6 @@ end
 
   class TriangleError < StandardError
     def message 
-      "Something is not right here"
+      "RangeError"
     end 
   end
