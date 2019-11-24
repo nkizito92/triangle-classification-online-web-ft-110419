@@ -13,15 +13,15 @@ class Triangle
       elsif (@a + @b <= @c ) || (@a + @c <= @b ) || (@b + @c <= @a )
         raise TriangleError
       else 
-        if (@a == @b) && (@b == @c)
-          :equilateral 
-          elsif (@a == @b) || (@b == @c) || (@a == @c)
-          :isosceles 
-          elsif (@a != @b) && (@b != @c) && (@a != @c)
-          :scalene
+          if (@a == @b) && (@b == @c)
+            :equilateral 
+            elsif (@a == @b) || (@b == @c) || (@a == @c)
+            :isosceles 
+            elsif (@a != @b) && (@b != @c) && (@a != @c)
+            :scalene
+          end 
         end 
       end 
-    end 
 end
 
   class TriangleError < StandardError
